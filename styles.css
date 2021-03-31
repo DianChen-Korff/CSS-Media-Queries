@@ -1,0 +1,30 @@
+.darkpurple-border {
+    border: 5px solid rgb(107, 2, 107) ;
+    margin: 20px;
+    padding: 10px;
+}
+
+.center-title {
+    margin: 0 auto;
+    width: 500px;
+}
+
+.navigation-links li {
+    display: inline;
+    margin: 10px;
+}
+
+body {
+    background-color:darkgoldenrod;
+    font-size: small;
+    color: lavenderblush;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: darkseagreen;
+      font-size: large; 
+      line-height: 27px;
+      color:  purple;
+    }
+  }
