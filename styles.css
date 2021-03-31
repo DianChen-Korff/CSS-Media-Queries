@@ -6,7 +6,11 @@
 
 .center-title {
     margin: 0 auto;
-    width: 500px;
+    width: 400px;
+}
+
+.navigation-links {
+    padding: 0%;
 }
 
 .navigation-links li {
@@ -15,16 +19,20 @@
 }
 
 body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color:darkgoldenrod;
-    font-size: small;
     color: lavenderblush;
+    font-size: 20px;
   }
   
-  @media only screen and (max-width: 600px) {
+  @media (min-width: 1024px) {
     body {
       background-color: darkseagreen;
-      font-size: large; 
-      line-height: 27px;
       color:  purple;
+      font-size: 16px; 
+      line-height: 20px;
+    }
+    .center-title {
+        width: 700px;
     }
   }
